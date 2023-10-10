@@ -18,6 +18,7 @@ body{
     background-color: var(--light-gray);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: 15px;
 }
@@ -56,8 +57,8 @@ body{
 }
 footer{
     position: absolute;
-    margin-top: 600px;
-    margin-left: 630px;
+    text-align: center;
+    margin-top: 700px;
 }
 .attribution {
     font-size: 11px;
